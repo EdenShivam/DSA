@@ -4,8 +4,6 @@ import java.util.*;
 public class TargetSum_Recurssion{
 
     static int targetSumUtil(int totalSum,int d , int[] arr , int target,int index) {
-
-
      if(totalSum-d<0) return 0;
      if((totalSum-d)%2==1) return 0;
 
